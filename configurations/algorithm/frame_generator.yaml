@@ -1,0 +1,6 @@
+name: frame_generator
+
+image_size: 64
+
+lr: 7e-5
+weight_decay: 2e-4

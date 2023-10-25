@@ -1,0 +1,12 @@
+defaults:
+  - experiment: matrix_flow
+  - dataset: sintel
+  - algorithm: pwc_learner
+
+wandb:
+  entity: scene-representation-group
+  project: diffusion_control
+  mode: dryrun
+
+  # To load a checkpoint, set the run ID here.
+  resume: null

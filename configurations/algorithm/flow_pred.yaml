@@ -1,0 +1,8 @@
+name: flow_pred
+
+image_size: 128,128
+
+lr: 4e-5
+weight_decay: 1e-6
+latent_dim: 16
+ae_frac: 0.1

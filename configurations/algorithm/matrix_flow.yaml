@@ -1,0 +1,19 @@
+name: matrix_flow
+
+image_size: 128,128
+architecture: unet
+
+goal: gt_flow_pred
+lr: 4e-5
+weight_decay: 1e-6
+radius: 17
+
+smoothness_weight: 0.0
+smoothness_lmbd: 2.0
+identity_weight: 0.0
+copout_weight: 0.0
+divergence_weight: 0.0
+inversion_weight: 0.0
+
+small_eps: 0.5
+eps: 1e-15

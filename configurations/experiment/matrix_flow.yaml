@@ -1,0 +1,17 @@
+defaults:
+    - base
+
+name: matrix_flow
+
+training:
+    data:
+        batch_size: 16
+        shuffle: true
+    clipping: 100
+
+validation:
+    check_epoch: 1
+    check_interval: 100
+    data:
+        batch_size: 8
+        shuffle: false

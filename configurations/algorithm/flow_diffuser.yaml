@@ -1,0 +1,19 @@
+name: flow_diffuser
+
+image_size: 128
+latent_dim: 16
+flow_max: 20
+latent_max: 2
+
+lr: 1e-5
+flow_weight: 0.0
+weight_decay: 1e-6
+is_diffusion: true
+latent: false
+timesteps: 1000
+
+target: joint
+ae: px8q8g0m
+noiser: image
+
+zero_init: true

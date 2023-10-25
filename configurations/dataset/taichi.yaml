@@ -1,0 +1,10 @@
+name: taichi
+
+image_size: 64
+scale_down: 1.0
+frame_distance: 10
+val_length: 10
+
+calculate_flows: false
+flow_batch_size: 48
+flow_method: raft

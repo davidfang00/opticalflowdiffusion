@@ -1,0 +1,5 @@
+name: classifier
+arch: resnet18
+num_class: 10
+in_channels: 3
+lr: 1e-3

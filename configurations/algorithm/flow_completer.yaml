@@ -1,0 +1,6 @@
+name: flow_completer
+
+image_size: 64
+
+lr: 4.5e-6
+weight_decay: 2e-4

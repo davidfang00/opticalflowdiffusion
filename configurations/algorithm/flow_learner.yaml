@@ -1,0 +1,15 @@
+name: flow_learner
+
+image_size: 128
+flow_max: 20
+latent: false
+zero_init: true
+
+c2f: false
+
+lr: 8e-5
+weight_decay: 1e-6
+sparsity_weight: 0.0
+occlusion_mask: true
+
+train_aug: true

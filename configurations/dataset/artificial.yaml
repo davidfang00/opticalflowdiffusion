@@ -1,0 +1,7 @@
+name: artificial
+
+image_size: 32
+size: 256000
+num_channels: 3
+shape: boxes
+bg: checkers
