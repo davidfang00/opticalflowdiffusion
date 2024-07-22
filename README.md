@@ -1,4 +1,4 @@
-# Optical Flow Diffusion
+# Optical Flow Estimation & Diffusion
 
 This repo contains code for optical flow estimation from video and flow generation with diffusion models.
 
